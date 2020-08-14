@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Landing from './pages/Landing'
-import LogIn from './pages/LogIn'
+import Landing from './pages/Landing';
+import LogIn from './pages/LogIn';
+import Cadastro from './pages/Cadastro';
 import TeacherList from './pages/TeacherList';
 import TeacherForm from './pages/TeacherForm';
 
@@ -10,6 +11,7 @@ function Routes(){
         <BrowserRouter>
         <Route path="/" exact component={LogIn} />
         <Route path="/landing" exact component={Landing} />
+        <Route path="/cadastro" exact component={Cadastro} />
         <Route path="/study" component={TeacherList} />
         <Route path="/give-classes" component={TeacherForm} />
 

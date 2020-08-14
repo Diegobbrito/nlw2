@@ -1,9 +1,10 @@
 import React from 'react';
 import './assets/styles/global.css';
-import Routes from './routes';
+import Routes from '../src/routes';
+
 function App() {
   return (
-    <Routes />
+      <Routes />
   );
 }
 

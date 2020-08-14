@@ -1,16 +1,20 @@
 import React from 'react';
 import logoImg from '../../assets/images/logo.svg'
 import loginImg from '../../assets/images/login.svg'
-import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg'
 import { Link } from 'react-router-dom';
 import Input from '../../components/Input';
 import './styles.css';
+import backIcon from '../../assets/images/icons/back.svg';
 
-function LogIn() {
+
+function Cadastro() {
     return (
-        <div id="page-login">
-            <div id="page-login-content" className="container">
-                <div className="log-container">
+        <div id="page-cadastro">
+            
+            <div id="page-cadastro-content" className="container">
+
+                <div className="proffy-container">
+               
                     <div className="proffy">
                         <img src={logoImg} alt="Proffy"/>
                         <h2>Sua plataforma de estudos online.</h2>
@@ -21,38 +25,34 @@ function LogIn() {
                         />
                     </div>
                 </div>
-                <div className="login">
-                    <div className="login-container">
-                        <h1>Fazer login</h1>
+                <div className="cadastro">
+                    <div className="cadastro-container">
+                        <h1>Cadastro</h1>
+                        <h2>
+                            Preencha os dados abaixo para começar.
+                        </h2>
+                        <Input type="text" name="name" label="" placeholder="Nome"/>
+                        <Input type="text" name="lastname" label="" placeholder="Sobrenome"/>
                         <Input type="email" name="email" label="" placeholder="E-mail"/>
                         <Input type="password" name="password" label="" placeholder="Senha"/>
 
                         <div className="buttons-container">
                             <Link to="/landing" className="log-in">
-                                Entrar
+                                Concluir Cadastro
                             </Link>
                         </div>
-                        <div className="login-password">
-                        <input type="checkbox" name="" id=""></input>
-                        <h3>Lembrar-me</h3>
-                        <a href="/">Esqueci minha senha</a>
+                        <div className="top-container">
+                            <Link to="/">
+                                <img src={backIcon} alt="Voltar"/>
+                            </Link>
                         </div>
+                        
                     </div>
                 </div>
-                <footer>
-                    <div className="cadastro">
-
-                        <h2>Não tem conta?</h2>
-                        <a href="/cadastro">Cadastre-se</a>
-                    </div>
-                    
-                    <span className="total-connections">
-                        É de graça <img src={purpleHeartIcon} alt="Coração roxo"/>
-                    </span>
-                </footer>
+                
             </div>
         </div>
     )
 }
 
-export default LogIn;
+export default Cadastro;
