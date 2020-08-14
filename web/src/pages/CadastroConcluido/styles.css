@@ -1,0 +1,79 @@
+#page-cadastroconcluido {
+    width: 100vw;
+    height: 100vh;
+    color: var(--color-text-in-primary);
+    background: #8257E5;
+    margin: 0;
+   
+}
+#cadastroconcluido-container{
+    display: flex;
+    height: 90%;
+    width: 90%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.back-image{
+    margin-top: 10rem;
+    margin-left: 10rem;
+    height: 100%;
+    width: 100%;
+}
+
+.text-cadastro{
+    position: absolute;
+    margin-top: 15rem;
+    width: 505px;
+    margin-left: 15rem;
+    font-style: normal;
+    text-align: center;
+}
+.text-cadastro h1{
+    font-family: Archivo;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.text-cadastro h2{
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #D4C2FF;
+}
+
+.cadastro-concluido-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button-container a {
+    width: 30rem;
+    height: 5.6rem;
+    border-radius: 0.8rem;
+    margin-right: 0rem;
+    font: 700 2.0rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.2s;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+.button-container a.logar {
+    background: var(--color-secondary);
+}
+
+.button-container a.logar:hover {
+    background: var(--color-secondary-dark);
+}
+

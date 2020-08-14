@@ -37,7 +37,7 @@ function Cadastro() {
                         <Input type="password" name="password" label="" placeholder="Senha"/>
 
                         <div className="buttons-container">
-                            <Link to="/landing" className="log-in">
+                            <Link to="/cadastro-concluido" className="log-in">
                                 Concluir Cadastro
                             </Link>
                         </div>
