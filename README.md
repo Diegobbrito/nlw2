@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="./.github/logo.png" alt="Proffy" width="280"/>
+   <img src="./.github/logo.svg" alt="Proffy" width="280"/>
 </p>
 
 > :rocket: Project made in Next Level Week 2 to connect teachers and students
