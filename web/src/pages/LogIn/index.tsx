@@ -26,16 +26,16 @@ function LogIn() {
                         <h1>Fazer login</h1>
                         <Input type="email" name="email" label="" placeholder="E-mail"/>
                         <Input type="password" name="password" label="" placeholder="Senha"/>
+                        <div className="login-password">
+                        <input type="checkbox" name="" id=""></input>
+                        <h3>Lembrar-me</h3>
+                        <a href="/">Esqueci minha senha</a>
+                        </div>
 
                         <div className="buttons-container">
                             <Link to="/landing" className="log-in">
                                 Entrar
                             </Link>
-                        </div>
-                        <div className="login-password">
-                        <input type="checkbox" name="" id=""></input>
-                        <h3>Lembrar-me</h3>
-                        <a href="/">Esqueci minha senha</a>
                         </div>
                     </div>
                 </div>

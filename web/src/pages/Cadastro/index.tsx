@@ -21,7 +21,7 @@ function Cadastro() {
                         <img 
                         src={loginImg} 
                         alt="Plataforma de estudos"
-                        className="back-image"
+                        className="back-image-cadastro"
                         />
                     </div>
                 </div>

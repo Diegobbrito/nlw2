@@ -13,7 +13,7 @@ function CadastroConcluido() {
                 <div id="cadastroconcluido-container">
                     <img 
                             src={cadastroImg} 
-                            className="back-image"
+                            className="back-image-cadastro-concluido"
                             alt="Backgroung img"
                         />
                     <div className="text-cadastro">
@@ -36,7 +36,7 @@ function CadastroConcluido() {
                         </div>
                             
                         <div className="button-container">
-                            <Link to="/landing" className="logar">
+                            <Link to="/" className="logar">
                                 Fazer login
                             </Link>
                         </div>

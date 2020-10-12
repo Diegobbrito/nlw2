@@ -23,13 +23,17 @@
     width: 335px;
     height: 98px;
 }
+.log-container .proffy img{
+    width: 100%;
+    height: 100%;
+}
 .log-container .back-image{
     position: absolute;
     left: 0;
     top: 0;
-
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
+    margin-top: 5rem;
 }
 
 .login {
@@ -101,20 +105,19 @@
 }
 
 .login .buttons-container a.log-in:hover {
-    background: var(--color-primary-light);
+    background: var(--color-secondary);
+    color: white;
 }
 
 .login .login-password{
     display: flex;
     align-items: center;
+    margin-top: 5rem;
 }
 
 .login .login-password h3 {
     margin-left: -70px;
 }
-
-
-
 
 #page-login-content footer{
     position: absolute;

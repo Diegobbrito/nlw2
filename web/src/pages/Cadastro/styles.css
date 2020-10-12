@@ -37,12 +37,17 @@
     width: 335px;
     height: 98px;
 }
-.proffy-container .back-image{
+.proffy-container .proffy img{
+    width: 100%;
+    height: 100%;
+}
+.proffy-container .back-image-cadastro{
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
+    margin-top: 5rem;
 }
 
 #page-cadastro .cadastro {
